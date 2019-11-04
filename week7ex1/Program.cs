@@ -15,6 +15,11 @@ namespace week7ex1
     {
         static void Main(string[] args)
         {
+            Rectangle myRectangle = new Rectangle(10, 2);
+            Console.WriteLine(myRectangle.CalcArea());
+            Triangle myTriangle = new Triangle(10, 2);
+            Console.WriteLine(myTriangle.CalcArea());
+            Console.ReadKey();
         }
     }
 }
